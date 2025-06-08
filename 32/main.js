@@ -84,4 +84,6 @@ Array.prototype.customForEach = function(callback) {
   // Test
   const colors = ["Red", "Green", "Blue"];
   console.log("Tìm thấy ở index: ",colors.customIndexOf("Red")); // 1
-  console.log("Tìm thấy ở index: ",colors.customIndexOf("Green")); // -1
+  console.log("Tìm thấy ở index: ",colors.customIndexOf("Green")); // 1
+  console.log("Tìm thấy ở index: ",colors.customIndexOf("Blue")); // 2
+  console.log("Tìm thấy ở index: ",colors.customIndexOf("Somethinf")); // not found
