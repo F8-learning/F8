@@ -18,7 +18,7 @@ git branch -M main<br>
 git push -u origin main<br>
 
 # …or push an existing repository from the command line
-git remote add origin https://github.com/F8-learning/dashboard.git
-git branch -M main
-git push -u origin main
+git remote add origin https://github.com/F8-learning/demo.git<br>
+git branch -M main<br>
+git push -u origin main<br>
 # Done
